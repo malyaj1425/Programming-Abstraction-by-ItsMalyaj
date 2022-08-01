@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
+}
+
+.head{
+    background-color:#4267B2;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    padding:20px;
+    padding-right: 180px;
+
+}
+
+#forgot{
+    color:#07286f;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    padding-right:10px
+
+}
+
+.pass{
+    display: flex;
+    flex-direction: column;
+    padding-right:10px
+}
+
+.inp{
+    height:20px;
+}
+
+.inp1{
+    height:35px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    padding-right:10px;
+    
+
+}
+
+button{
+    height:20px;
+}
+
+#button1{
+    background-color:#07286f;
+    color:white;
+    border:1px rgb(73, 73, 73) solid;
+    padding: 5px;
+    height:25px;
+}
+
+.footers{
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 100px;
+    
+    /* justify-content: flex-end; */
+}
+
+h1{
+    padding-top:40px;
+}
+
+#free{
+    padding-top:20px ;
+}
+
+.inp1 {
+    margin: 5px;
+}
+
+.box1{
+    width:287px;
+}
+
+.bday{
+    padding: 20px 0px;
+}
+
+span{
+    color: #4267B2;
+}
+
+select{
+    height:35px;
+}
+.rdio{
+    padding:15px 0px;
+}
+
+#sbtn{
+
+    background-color:rgb(26, 172, 26);
+    color:white;
+    height:40px;
+    width:240px;
+    border:none;
+    border-radius: 4%;
+    margin-top: 30px;
+    font-size:x-large;
+}
+#sbtn:hover{
+    background-color:rgb(14, 114, 14);
+    transition:0.25s
+}
+ 
+
+
+#dob{
+    font-size: smaller;
+}
