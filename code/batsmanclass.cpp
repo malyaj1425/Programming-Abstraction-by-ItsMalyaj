@@ -20,7 +20,13 @@ class batsman{
         cout<<"Innings: "<<b<<endl;
         cout<<"Not Outs: "<<c<<endl;
         cout<<"Runs: "<<d<<endl;
+        cout<<avgData();
     }
+    float avgData()
+    {
+        return(d/(b-c));
+    }
+
     
 };
 class inputs:public batsman
@@ -33,9 +39,11 @@ class inputs:public batsman
     {
         cout<<"Siuuuuuu!!"<<endl;
     }
+    
 
 };
 int main(){
     inputs obj("Sachin",100,100,1000);
+    obj.avgData();
     return 0;
 }
