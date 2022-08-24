@@ -5,7 +5,7 @@ int DisplayEXP(int a,int b){
     cout<<a<<" "<<b<<endl;
     try{
         if(b==0){
-            throw b;
+            throw b;+
         }
     }
     catch(int){
