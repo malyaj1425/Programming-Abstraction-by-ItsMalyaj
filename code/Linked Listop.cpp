@@ -53,7 +53,23 @@ void addbw(node *head,int d,int n){
         }
         tmp=tmp->next;
     }
+}
+void deletenode(node *head,int n){
+    node *tmp=head;
+    while(tmp){
+        if(tmp->next==NULL){
+            return;
+        }
+        else if(tmp->next->data==n){
+            node *deletenode=tmp->next;
+            tmp->next=tmp->next->next;
+            free(deletenode);
+            return;
 
+        }
+        tmp=tmp->next;
+
+    }
 }
 void display(node *head) {
 	node *list = head;
@@ -72,7 +88,9 @@ int main(){
     addHead(&head,50);
     display(head);
     search(head,20);
-    addbw(head,20,69);
+    addbw(head,20,45);
+    display(head);
+    deletenode(head,45);
     display(head);
     return 0;
 }
