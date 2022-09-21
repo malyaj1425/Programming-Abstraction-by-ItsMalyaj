@@ -7,10 +7,13 @@ class node{
     int data;
     node* next;
 };
+
 void init_node(node *head,int n){
     head->data=n;
     head->next=NULL;
 }
+
+
 void addHead(node **head,int n){
     node *newnode=new node;
     newnode->data=n;
@@ -65,7 +68,6 @@ void deletenode(node *head,int n){
             tmp->next=tmp->next->next;
             free(deletenode);
             return;
-
         }
         tmp=tmp->next;
 
