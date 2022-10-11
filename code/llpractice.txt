@@ -1,0 +1,12 @@
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+
+Class node{
+    int data;
+    node* next;
+}
+int main(){
+
+    return 0;
+}

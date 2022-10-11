@@ -4,7 +4,7 @@
 using namespace std;
 int push(int arr[], int n, int top, int size)
 {
-    if (top == size)
+    if (top == size-1)
     {
         cout << "Overflow\n";
     }
