@@ -82,6 +82,7 @@ void display(node *head) {
 	cout << endl;
 }
 int main(){
+    
     node *head=new node;
     init_node(head,1);
     addTail(head,20);
